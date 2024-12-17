@@ -19,7 +19,7 @@ body {
     background-color: #1f2937;
     color: white;
     display: flex;
-    padding: 10px 15vw;
+    padding: 20px 15vw;
     justify-content: space-between;
 }
 
@@ -45,16 +45,43 @@ a {
     background-color: #1f2937;
     color: white;
     display: flex;
+    justify-content: space-between;
+    padding: 48px 15vw;
 }
 
 #description {
     display: flex;
     flex-direction: column;
-    width: 35vw;
+    width: 30vw;
+    max-height: 250px;
+}
+
+#description-title {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    flex-grow: 1;
+}
+
+#description-text {
+    font-size: 18px;
+    color: #e5e7eb;
+    flex-grow: 1;
+}
+
+button {
+    background-color: #3882F6;
+    color: inherit;
+    font-size: 18px;
+    font-weight: bold;
+    width: 120px;
+    padding: 4px 8px;
+    border: none;
+    border-radius: 5px;
 }
 
 #segment1 img {
-    width: 35vw;
+    max-height: 250px;
 }
 
 #segment2 {
