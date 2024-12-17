@@ -85,24 +85,47 @@ button {
 }
 
 #segment2 {
+    background-color: white;
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-bottom: 160px;
+}
+
+#random-inf {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    padding: 40px 0;
 }
 
 #random-img {
     display: flex;
     width: 60vw;
-    gap: 3vw;
+    gap: 2vw;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .random-item {
     display: flex;
     flex-direction: column;
+    width: 250px;
+    flex-shrink: 0;
+    gap: 8px;
 }
 
 .random-item img {
     width: 100%;
-    flex: 1;
+    height: auto;
+    border: solid #3882F6 5px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.img-desc {
+    text-align: center;
 }
 
 #segment3 {
