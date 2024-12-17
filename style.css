@@ -129,16 +129,28 @@ button {
 }
 
 #segment3 {
+    background-color: #e5e7eb;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
 }
 
 #quote {
     width: 60vw;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
 }
 
 #quote-author {
     width: 60vw;
+    text-align: right;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-right: 120px;
 }
 
 #segment4 {
