@@ -16,16 +16,20 @@ body {
 }
 
 #header {
+    background-color: #1f2937;
+    color: white;
     display: flex;
+    padding: 10px 15vw;
+    justify-content: space-between;
 }
 
 #logo {
-    width: 35vw;
+    font-weight: 700;
 }
 
 ul {
     display: flex;
-    width: 35vw;
+    gap: 2vw;
 }
 
 li {
@@ -34,9 +38,12 @@ li {
 
 a {
     text-decoration: none;
+    color: inherit;
 }
 
 #segment1 {
+    background-color: #1f2937;
+    color: white;
     display: flex;
 }
 
