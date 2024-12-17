@@ -41,19 +41,30 @@ a {
     color: inherit;
 }
 
-#segment1 {
+#s1-wrapper {
     background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+}
+
+#segment1 {
     color: white;
     display: flex;
     justify-content: space-between;
-    padding: 48px 15vw;
+    align-items: center;
+    width: 70vw;
+    padding: 48px 0;
+    flex-wrap: wrap;
+    gap: 30px;
 }
 
 #description {
     display: flex;
     flex-direction: column;
-    width: 30vw;
+    width: 400px;
+    max-width: 600px;
     max-height: 250px;
+    flex: 1 0 auto;
 }
 
 #description-title {
