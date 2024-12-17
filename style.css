@@ -186,4 +186,8 @@ button {
 
 #footer {
     display: flex;
+    background-color: #1f2937;
+    color: white;
+    padding: 20px 0;
+    justify-content: center;
 }
