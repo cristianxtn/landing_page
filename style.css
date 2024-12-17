@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: "Roboto";
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+#header {
+    display: flex;
+}
+
+#logo {
+
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+#segment1 {
+    display: flex;
+}
+
+#description {
+    display: flex;
+    flex-direction: column;
+}
+
+#segment2 {
+    display: flex;
+    flex-direction: column;
+}
+
+#random-img {
+    display: flex;
+}
+
+.random-item {
+    display: flex;
+    flex-direction: column;
+}
+
+#segment3 {
+    display: flex;
+    flex-direction: column;
+}
+
+#segment4 {
+    display: flex;
+}
+
+#signup-wrapper {
+    display: flex;
+}
+
+#signup-text {
+    display: flex;
+    flex-direction: column;
+}
+
+#footer {
+    display: flex;
+}
