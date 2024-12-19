@@ -41,19 +41,13 @@ a {
     color: inherit;
 }
 
-#s1-wrapper {
-    background-color: #1f2937;
-    display: flex;
-    justify-content: center;
-}
-
 #segment1 {
+    background-color: #1f2937;
     color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 70vw;
-    padding: 48px 0;
+    padding: 48px 15vw;
     flex-wrap: wrap;
     gap: 30px;
 }
@@ -77,6 +71,7 @@ a {
 #description-text {
     font-size: 18px;
     color: #e5e7eb;
+    margin-bottom: 15px;
     flex-grow: 1;
 }
 
